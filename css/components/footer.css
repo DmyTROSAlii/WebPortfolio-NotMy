@@ -1,0 +1,26 @@
+.footer {
+	padding-bottom: 60px;
+}
+
+.footer .info {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 40px;
+}
+
+.footer .info .social-list .item {
+	margin-right: 10px;
+}
+
+.footer .info>*:not(:last-child) {
+	margin-right: 48px;
+}
+
+.footer .nav {
+	margin-top: 60px;
+}
+
+.footer .nav .list {
+	justify-content: center;
+}

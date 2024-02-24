@@ -1,36 +1,5 @@
-.container {
-	max-width: 1230px;
-	margin: 0 auto;
-}
-
-h2 {
-	font-size: 36px;
-}
-
-.header {
-	display: flex;
-	justify-content: space-between;
-}
-
-.hero-section {
-	display: flex;
-	justify-content: space-between;
-}
-
-.tech-stack-section ul {
-	display: flex;
-}
-
-.projects-section .inner {
-	display: flex;
-	justify-content: space-between;
-}
-
-.projects-section .inner article {
-	width: 30%;
-}
-
-.footer .info {
-	display: flex;
-}
-
+@import './reset.css';
+@import './fonts.css';
+@import './common.css';
+@import './components/main.css';
+@import './layouts/main.css';

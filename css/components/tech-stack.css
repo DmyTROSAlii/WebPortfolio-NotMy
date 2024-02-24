@@ -1,0 +1,11 @@
+.stack-list {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.stack-list .item {
+	width: 16.6%;
+	margin-bottom: 50px;
+}
