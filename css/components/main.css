@@ -8,9 +8,16 @@
 @import './titile.css';
 @import './section.css';
 
+@import './input.css';
+@import './label.css';
+@import './button.css';
+
 @import './section-hero.css';
 @import './project-card.css';
 @import './section-projects.css';
 @import './tech-stack.css';
+@import './section-tech-stack.css';
+@import './form.css';
+@import './section-about.css';
 
 @import './footer.css';

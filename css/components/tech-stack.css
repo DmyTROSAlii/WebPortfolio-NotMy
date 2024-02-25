@@ -8,4 +8,23 @@
 .stack-list .item {
 	width: 16.6%;
 	margin-bottom: 50px;
+	text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+	.stack-list .item {
+		width: 20%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.stack-list .item {
+		width: 25%;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.stack-list .item {
+		width: 50%;
+	}
 }

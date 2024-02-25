@@ -3,7 +3,7 @@
 
 <head>
 	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<link rel="stylesheet" href="css/style.css" />
 	<title>Portfolio</title>
 </head>
@@ -11,6 +11,7 @@
 <body>
 	<div class="container">
 		<header class="header">
+			<div class="overlay"></div>
 			<a href="" class="logo">
 				<img src="./img/svg/logo.svg" alt="" />
 			</a>
@@ -26,7 +27,7 @@
 						<a class="link" href="./tech-stack.html">Tech Stack</a>
 					</li>
 					<li class="item">
-						<a class="link" href="">Projects</a>
+						<a class="link" href="./projects.html">Projects</a>
 					</li>
 					<li class="item">
 						<a class="link" href="./contact.html">Contact</a>
@@ -50,6 +51,11 @@
 					</a>
 				</li>
 			</ul>
+			<button class="nav-btn">
+				<span class="nav-btn-line"></span>
+				<span class="nav-btn-line"></span>
+				<span class="nav-btn-line"></span>
+			</button>
 		</header>
 		<section class="hero-section">
 			<h1 class="h1 title">Hi 👋 ,<br>My name is some name I build things for
@@ -78,7 +84,7 @@
 				<li class="item">
 					<img src="./img/svg/css.svg" alt="">
 				</li>
-				
+
 			</ul>
 		</section>
 		<section class="projects-section section">
@@ -234,9 +240,9 @@
 		</section>
 		<footer class="footer">
 			<div class="info">
-				<a href="tel:+91 12345 09876">+91 12345 09876</a>
-				<a href="mailto:info@example.com">info@example.com</a>
-				<ul class="social-list">
+				<a href="tel:+91 12345 09876" class="footer-info">+91 12345 09876</a>
+				<a href="mailto:info@example.com" class="footer-info">info@example.com</a>
+				<ul class="social-list footer-info">
 					<li class="item">
 						<a href="">
 							<img class="icon" src="./img/svg/github.svg" alt="">
@@ -261,13 +267,13 @@
 						<a class="link" href="./index.html">Home</a>
 					</li>
 					<li class="item">
-						<a class="link" href="">About</a>
+						<a class="link" href="/about.html">About</a>
 					</li>
 					<li class="item">
-						<a class="link" href="./my-tech-stack.html">Tech Stack</a>
+						<a class="link" href="./tech-stack.html">Tech Stack</a>
 					</li>
 					<li class="item">
-						<a class="link" href="">Projects</a>
+						<a class="link" href="./projects.html">Projects</a>
 					</li>
 					<li class="item">
 						<a class="link" href="./contact.html">Contact</a>
@@ -276,6 +282,7 @@
 			</nav>
 		</footer>
 	</div>
+	<script src="js/main.js"></script>
 </body>
 
 </html>

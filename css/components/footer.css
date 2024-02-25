@@ -13,7 +13,7 @@
 	margin-right: 10px;
 }
 
-.footer .info>*:not(:last-child) {
+.footer .footer-info:not(:last-child) {
 	margin-right: 48px;
 }
 
@@ -23,4 +23,28 @@
 
 .footer .nav .list {
 	justify-content: center;
+}
+
+@media screen and (max-width: 480px) {
+	.footer {
+		margin-top: 50px;
+	}
+
+	.footer .info {
+		flex-direction: column;
+	}
+
+	.footer .footer-info:not(:last-child){
+		margin: 0 0 30px 0;
+	}
+
+	.footer .nav .list {
+		flex-direction: column;
+		justify-content: center;
+		text-align: center;
+	}
+
+	.footer .nav .list>* {
+		margin: 0 0 30px 0;
+	}
 }
