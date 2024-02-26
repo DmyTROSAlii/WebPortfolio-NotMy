@@ -6,97 +6,111 @@
 
 .about-section .title {
 	padding: 0;
+	margin-top: 60px;
 	margin-bottom: 38px;
 	text-align: left;
 }
 
-.about-section .experience {
-	margin-top: 64px;
-}
-
 .about-section .item {
-	min-height: 55px;
 	position: relative;
-	margin-top: 50px;
+	margin-top: 55px;
+	margin-bottom: 35px;
 }
 
-.about-section .item > * {
-	position: absolute;
-}
-
-.list-experience .item .position {
-	top: 0;
-	left: 0;
+.about-section .item .position,
+.about-section .item .name-univer {
 	font-size: 20px;
+	width: 580px;
 }
 
-.list-experience .item .location {
-	bottom: 0;
-	left: 0;
+.about-section .item .location {
 	font-size: 12px;
 }
 
-.list-experience .item .location::before {
-	content: url('/img/svg/office.svg');
-	vertical-align: middle;
-	margin-right: 5px;
-}
-
-.about-section .type-work {
-	top: 0;
-	right: 0;
+.about-section .item .type-work h4 {
 	font-size: 9px;
-	width: 93px;
 	border: 1px;
+	width: 93px;
+	height: 24px;
+	padding: 5px 20px;
 	border-radius: 100px;
 	text-align: center;
 	color: #018C0F;
 	font-weight: 700;
 	background-color: #D7FFE0;
-	padding: 5px 20px;
-} 
-
-.about-section .time-experience {
-	bottom: 0;
-	right: 0;
-	font-size: 12px;
-	margin-right: 23px;
 }
 
-.about-section .time-experience::before {
+.about-section .item td:last-child,
+.about-section .item .time-education {
+	position: relative;
+}
+
+.about-section .item .type-work {
+	min-width: 200px;
+}
+
+.about-section .item .type-work h4 {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.about-section .item .time-experience p,
+.about-section .item .time-education p {
+	text-align: right;
+	font-size: 12px;
+	margin-right: 23px;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+.list-experience .item .location p::before {
+	content: url('/img/svg/office.svg');
+	vertical-align: middle;
+	margin-right: 5px;
+}
+
+.about-section .time-experience p::before,
+.about-section .time-education p::before {
 	content: url('/img/svg/time.svg');
 	vertical-align: middle;
 	margin-right: 5px;
 }
 
-.about-section .item-line {
-	min-width: 776px;
-	top: 75px;
-}
-
-.about-section .education {
-	margin-top: 76px;
-}
-
-.education .item .title {
-	top: 0;
+.about-section .item::after {
+	content: "";
+	position: absolute;
+	bottom: -30px;
 	left: 0;
-	font-size: 20px;
+	width: 98%;
+	height: 2px;
+	background-color: #EBEAED;
+}
+
+.last-row-time {
+	height: 20px;
 }
 
 @media screen and (max-width: 768px) {
-	.about-section .item-line {
-		min-width: 740px;
+	.about-section .item .position,
+	.about-section .item .name-univer {
+		max-width: 520px;
 	}
 }
 
 @media screen and (max-width: 480px) {
-	.about-section .item-line {
-		min-width: 445px;
+	.about-section .item .position,
+	.about-section .item .name-univer {
+		max-width: 260px;
 	}
 
-	.about-section .title,
-	.about-section .position {
+	.about-section .item .type-work {
+		max-width: 100px;
+	}
+
+	.about-section .name-univer h3,
+	.about-section .position h3 {
 		max-width: 300px;
 	}
 }
