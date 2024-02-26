@@ -102,13 +102,9 @@
 @media screen and (max-width: 480px) {
 	.about-section .item .position,
 	.about-section .item .name-univer {
-		max-width: 260px;
+		max-width: 230px;
 	}
-
-	.about-section .item .type-work {
-		max-width: 100px;
-	}
-
+	
 	.about-section .name-univer h3,
 	.about-section .position h3 {
 		max-width: 300px;
