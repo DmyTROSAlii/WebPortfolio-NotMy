@@ -1,3 +1,7 @@
+.form {
+	margin-bottom: 50px;
+}
+
 .form>*:not(:last-child) {
 	margin-bottom: 26px;
 }
@@ -8,7 +12,7 @@
 	flex-wrap: wrap;
 }
 
-.form .form-row .flex-end {
+.form .form-row.flex-end {
 	justify-content: flex-end;
 }
 
@@ -20,7 +24,7 @@
 	flex: 1 0 0%;
 }
 
-.form .form-row .cols-auto .form-col {
+.form .form-row.cols-auto .form-col {
 	flex: 0 0 auto;
 	width: auto;
 }
@@ -29,5 +33,9 @@
 	.form .form-row>* {
 		flex: 0 0 100%;
 		margin-right: 0;
+	}
+
+	.form .form-row.flex-end {
+		justify-content: center;
 	}
 }

@@ -1,0 +1,12 @@
+.projects-section .inner > .horisontal-look:not(.filter-output) {
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+.projects-section .inner > .horisontal-look:not(:nth-child(3n + 1)) {
+	margin-left: 0;
+}
+
+.horisontal-look {
+	display: flex;
+}
