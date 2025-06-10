@@ -44,8 +44,8 @@
 
 1. **Clone the repository:**
    ```sh
-   git clone https://github.com/your-username/your-portfolio.git
-   cd your-portfolio
+   git clone https://github.com/DmyTROSAlii/WebPortfolio-NotMy.git
+   cd webportfolio-notmy
    ```
 2. **Open the folder in your editor (e.g., VS Code).**
 3. **Run a local server** (for example, using Live Server or any static site server).
